@@ -1,0 +1,6 @@
+---
+name: Hypper
+repository: https://github.com/rancher-sandbox/hypper
+twitter:
+website: https://hypper.io
+description: A dependency-aware package manager built on Helm.
