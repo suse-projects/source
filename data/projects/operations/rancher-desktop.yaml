@@ -1,5 +1,5 @@
 ---
 name: Rancher Desktop
-repository: https://github.com/rancher
+repository: https://github.com/rancher-sandbox/rd
 description: Kubernetes on your desktop.
 disabled: true
