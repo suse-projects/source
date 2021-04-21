@@ -1,0 +1,27 @@
+@import "../public/global";
+
+.group {
+  &-container {
+      > *:not(:last-child) {
+        padding-bottom: 15px;
+      }
+  }
+
+  &-heading {
+    @extend %group-heading;
+  }
+
+  &-copy {
+    @extend %group-copy;
+  }
+
+  &-heading-center {
+    @extend %group-heading;
+    text-align: center;
+  }
+
+  &-cta-anchor {
+    @extend %secondary-link;
+  }
+
+}

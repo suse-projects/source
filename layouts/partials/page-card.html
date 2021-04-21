@@ -1,0 +1,56 @@
+<card>
+    <div class="card--component" data-background="white">
+        <div class="card-header">
+        {{ $image := print (replace  (.name | lower) " " "-") }}
+        {{ if (fileExists ( print "static/logos/" $image ".svg")) }}
+        {{ $image = print $image ".svg" }}
+        {{ else }}
+        {{ $image = print $image ".png" }}
+        {{ end }}
+            <a href="{{ with .website }}{{ . }}{{ else }}{{ .repository }}{{ end }}"><img class="card-header-img" src="/logos/{{ $image }}" alt="{{ .name }} logo"></a>
+        </div>
+        <div class="card-body" data-align="center">
+            <h3 class="card-body-headline"><a href="{{ .repository }}" >{{ .name }}</a></h3>
+            <p class="card-body-copy">{{ .description }}</p>
+        </div>
+        {{ $uplevel := 0 }}
+        {{ if .website }}
+        {{ $uplevel = (add $uplevel 1 )}}
+        {{ end }}
+        {{ if .repository }}
+        {{ $uplevel = (add $uplevel 1 )}}
+        {{ end }}
+        {{ if .twitter }}
+        {{ $uplevel = (add $uplevel 1 )}}
+        {{ end }}
+        <div class="card-footer" data-layout="{{ $uplevel }}-up">
+            {{ with .website }}
+            <div class="card-footer-content" data-align="center">
+                <a class="card-footer-link" href="{{ . }}">
+                    <i class="card-footer-icon fa fa-fw fa-globe"></i>
+                    <br/>
+                    Website
+                </a>
+            </div>
+            {{ end }}
+            {{ with .twitter }}
+            <div class="card-footer-content" data-align="center">
+                <a class="card-footer-link" href="{{ . }}">
+                    <i class="card-footer-icon fab fa-twitter"></i>
+                    <br/>
+                    Twitter
+                </a>
+            </div>
+            {{ end }}
+            {{ with .repository }}
+            <div class="card-footer-content" data-align="center">
+                <a class="card-footer-link" href="{{ . }}">
+                    <i class="card-footer-icon fab fa-github"></i>
+                    <br/>
+                    Repo
+                </a>
+            </div>
+            {{ end }}
+        </div>
+    </div>
+</card>

@@ -1,0 +1,6 @@
+---
+name: Harvester
+repository: https://github.com/rancher/harvester
+twitter:
+website: https://harvesterhci.io/
+description: Open source hyperconverged infrastructure (HCI) software.

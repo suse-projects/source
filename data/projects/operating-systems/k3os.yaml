@@ -1,0 +1,6 @@
+---
+name: K3OS
+repository: https://github.com/rancher/k3os
+twitter:
+website: https://k3os.io/
+description: Purpose-built OS for Kubernetes, fully managed by Kubernetes.

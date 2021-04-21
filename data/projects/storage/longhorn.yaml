@@ -1,0 +1,6 @@
+---
+name: Longhorn
+repository: https://github.com/longhorn/longhorn
+twitter:
+website: https://longhorn.io/
+description: Cloud-Native distributed block storage built on and for Kubernetes.

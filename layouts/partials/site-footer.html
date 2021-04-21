@@ -1,0 +1,13 @@
+<universalfooter class="ng-isolate-scope">
+    <footer class="footer--component" xmlns:dc="http://purl.org/dc/elements/1.1/" data-collapse="both">
+        <div class="footer-container">
+            <a class="footer-logo" href="https://www.suse.com"><img src="/img/suse-white-logo-green.svg"></a>
+            <div class="footer-links">
+                {{ range $.Site.Data.footer_links }}
+                {{ partial "site-footer-link.html" . }}
+                {{ end }}
+            </div>
+            <p class="footer-copyright" property="dc:rights">Copyright ©<span property="dc:dateCopyrighted">{{ now.Format "2006" }}</span> <span property="dc:publisher">SUSE</span></p>
+        </div>
+    </footer>
+</universalfooter>

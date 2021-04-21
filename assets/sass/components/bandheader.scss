@@ -1,0 +1,19 @@
+@import "../public/global";
+
+.band-header {
+  &-title {
+    @extend %band-title;
+  }
+  &-heading {
+    @extend %band-heading;
+  }
+
+  &-heading-center {
+    @extend %band-heading;
+    text-align: center;
+  }
+
+  &-summary {
+    @extend %band-summary;
+  }
+}

@@ -1,0 +1,12 @@
+<section class="band--layout" id="contribute">
+<bandheader>
+    <div class="band-header--component">
+        <h2 class="band-header-heading-center">Explore SUSE Solutions</h2>
+    </div>
+</bandheader>
+<div class="band-container" data-layout="4-up">
+        {{ range $.Site.Data.cta }}
+        {{ partial "page-cta-item.html" . }}
+        {{ end }}
+    </div>
+</section>

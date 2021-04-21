@@ -1,0 +1,12 @@
+{{ define "main" }}
+{{- range $category, $project := $.Site.Data.projects }}
+    {{- range $k, $v := . }}
+        {{ $v = merge $v (dict "category" $category) }}
+        {{- $.Scratch.SetInMap "projects" $k $v }}
+    {{- end }}
+{{- end }}
+{{ partial "page-hero.html" . }}
+{{ partial "page-featured.html" . }}
+{{ partial "page-projects.html" . }}
+{{ partial "page-cta.html" . }}
+{{ end }}

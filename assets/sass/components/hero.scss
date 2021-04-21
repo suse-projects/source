@@ -1,0 +1,30 @@
+@import "../public/global";
+
+.hero {
+    &--component {
+        @extend %default--band;
+        align-items: center;
+        background-color: $jungle-green;
+        // background-image: url("/img/hero.png");
+        background-position: center center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        display: flex;
+        min-height: 25vh;
+        justify-content: center;
+    }
+
+    &-container {
+        @extend %default-container;
+    }
+
+    &-heading {
+        @extend %hero-heading;
+        color: $cloud;
+    }
+
+    &-copy {
+        @extend %hero-copy;
+        color: white;
+    }
+}

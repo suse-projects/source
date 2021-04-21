@@ -1,0 +1,72 @@
+@import url("https://fonts.googleapis.com/css?family=Overpass:300,400,800");
+@import url("https://static.redhat.com/libs/redhat/redhat-font/2/webfonts/red-hat-font.css");
+h1, h2, h3, h4 {
+  margin: 0; }
+
+p {
+  margin: 0; }
+  p:not(:last-child) {
+    margin-bottom: 10px; }
+
+/*doc
+---
+title: Colors
+
+Name that color tool: http://chir.ag/projects/name-that-color/#F0F0F0
+Use this tool to determine the name of your new color.
+*/
+/*doc
+---
+title: Breakpoints
+
+*/
+.band--layout {
+  padding-bottom: 60px;
+  padding-top: 60px;
+  position: relative; }
+  .band--layout[data-background="gray"] {
+    background-color: #f0f0f0; }
+  .band--layout[data-collapse="top"] {
+    padding-top: 30px; }
+  .band--layout[data-collapse="bottom"] {
+    padding-bottom: 30px; }
+  .band--layout[data-collapse="both"] {
+    padding-top: 10px;
+    padding-bottom: 10px; }
+
+.band-container {
+  padding: 0 9px;
+  margin-right: auto;
+  margin-left: auto; }
+  .band-container[data-align="left"] {
+    text-align: left; }
+  .band-container[data-align="center"] {
+    text-align: center; }
+  .band-container[data-align="right"] {
+    text-align: right; }
+  @media screen and (min-width: 768px) {
+    .band-container {
+      width: 750px;
+      padding: 0; } }
+  @media screen and (min-width: 992px) {
+    .band-container {
+      width: 970px; } }
+  @media screen and (min-width: 1200px) {
+    .band-container {
+      width: 1170px; } }
+.band-container[data-layout="stack"] > *:not(:last-child) {
+  display: block;
+  padding-bottom: 30px; }
+
+.band-container[data-layout="3-up"] {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(305px, 1fr));
+  grid-auto-rows: 1fr;
+  grid-gap: 15px; }
+  .band-container[data-layout="3-up"] > * {
+    display: grid; }
+
+.band-container[data-layout="2-up"] {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(305px, 1fr));
+  grid-gap: 30px; }

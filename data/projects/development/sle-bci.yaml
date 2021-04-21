@@ -1,0 +1,6 @@
+---
+name: SLE BCI
+repository: https://github.com/rancher
+twitter:
+website: http://rancher.com/
+description: A secure container base image built from SUSE Enterprise Linux.

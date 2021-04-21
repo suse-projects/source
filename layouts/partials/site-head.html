@@ -1,0 +1,50 @@
+<head>
+    <style type="text/css">
+        @charset "UTF-8";
+
+        [ng\:cloak],
+        [ng-cloak],
+        [data-ng-cloak],
+        [x-ng-cloak],
+        .ng-cloak,
+        .x-ng-cloak,
+        .ng-hide:not(.ng-hide-animate) {
+            display: none !important;
+        }
+
+        ng\:form {
+            display: block;
+        }
+
+        .ng-animate-shim {
+            visibility: hidden;
+        }
+
+        .ng-anchor {
+            position: absolute;
+        }
+    </style>
+    <meta charset="UTF-8">
+    <meta name="copyright" content="© 2021 SUSE, Inc.">
+    <title>SUSE Projects</title>
+    <link rel="icon" type="image/png" href="https://www.suse.com/favicon.ico">
+    <link rel="stylesheet" type="text/css"
+        href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.0/normalize.min.css">
+    <link rel="stylesheet" type="text/css" href="https://use.fontawesome.com/releases/v5.0.8/css/all.css"
+        integrity="sha384-3AB7yXWz4OeoZcPbieVW64vVXEwADiYyAEhwilzWsLw+9FgqpyjjStpPnpBO8o8S" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;family=Roboto&amp;display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="/css/style.css?ver=1.8">
+    {{- $scssFile := "sass/main.scss" }}
+    {{- $cssTarget := "css/main.css" }}
+    {{- $cssOpts := cond (.Site.IsServer) (dict "targetPath" $cssTarget
+    "enableSourceMap" true) (dict "targetPath" $cssTarget "outputStyle" "compressed") }}
+    {{- if .Site.IsServer }}
+    {{- $style := resources.Get $scssFile | toCSS $cssOpts }}
+    <link rel="stylesheet" type="text/css" href="{{ $style.RelPermalink }}">
+    {{- else }}
+    {{- $style := resources.Get $scssFile | toCSS $cssOpts | minify | fingerprint }}
+    <link rel="stylesheet" type="text/css" href="{{ $style.RelPermalink }}" integrity="{{
+    $style.Data.Integrity }}">
+    {{- end }}
+    <script src="/js/list.js"></script>
+</head>

@@ -1,0 +1,11 @@
+<!DOCTYPE html>
+<html>
+    {{- partial "site-head.html" . -}}
+    <body>
+        {{ block "header" . }}{{- partial "site-header.html" . }}{{ end }}
+        <div id="content">
+        {{- block "main" . }}{{- end }}
+        </div>
+        {{ block "footer" . }}{{- partialCached "site-footer.html" . }}{{ end }}
+    </body>
+</html>

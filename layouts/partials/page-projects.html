@@ -1,0 +1,70 @@
+<section class="band--layout" id="projects" data-background="gray" data-collapse="top">
+    <div class="band-container" data-layout="stack">
+        <bandheader>
+            <div class="band-header--component">
+                <h3 class="band-header-heading">SUSE Open Source Projects and Contributions</h3>
+            </div>
+        </bandheader>
+        <dynamictable>
+            <div class="table--component" id="project-table">
+
+                <div class="table-filters">
+                    <div class="table-search">
+                        <input id="search-box" class="table-search-input search"
+                            type="text" placeholder="Search by project name..." >
+                    </div>
+                    <div class="table-dropdown">
+                        <label for="category" class="table-dropdown-label">Categories</label>
+                        <select class="table-dropdown-select"
+                            name="category" id="filter-category" oninput="filterCategory();" data-table="table-main">
+                            <option value="" class="" selected="selected">All</option>
+                            {{ range $k, $v := $.Site.Data.projects }}
+                            {{ $label := humanize $k | title }}
+                            <option label="{{ $label }}" value="{{ $label }}">{{ $label }}</option>
+                            {{ end }}
+                        </select>
+                        <i class="fas fa-caret-down"></i>
+                    </div>
+                </div>
+
+                <table class="table-main" id="project-table">
+                    <thead class="table-header">
+                        <tr>
+                            <th>Project name</th>
+                            <th>Project website</th>
+                            <th>Category</th>
+                        </tr>
+                    </thead>
+                    <tbody class="table-body list">
+                        {{ range $.Scratch.GetSortedMapValues "projects" }}
+                        {{ if not .disabled }}
+                        {{ partial "page-project-row.html" . }}
+                        {{ end }}
+                        {{ end }}
+                    </tbody>
+                </table>
+            </div>
+        </dynamictable>
+    </div>
+    <script type="text/javascript">
+        var options = {
+            valueNames: ['projectName', 'projectRepository', 'projectCategory']
+        };
+
+        var projectList = new List('project-table', options);
+
+        function filterCategory(){
+            var category = document.getElementById('filter-category').value;
+            if (category == "") {
+                projectList.filter();
+            } else {
+                projectList.filter(function(item) {
+                    if (item._values.projectCategory == category) {
+                        return true;
+                    }
+                    return false;
+                });
+            }
+        }
+        </script>
+</section>

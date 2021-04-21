@@ -1,0 +1,6 @@
+---
+name: K3S
+repository: https://github.com/k3s-io/k3s
+twitter:
+website: https://k3s.io/
+description: Lightweight Kubernetes built for resource-constrained environments like IoT and Edge.

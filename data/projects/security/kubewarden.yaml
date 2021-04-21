@@ -1,0 +1,6 @@
+---
+name: Kubewarden
+repository: https://github.com/kubewarden
+twitter: https://twitter.com/kubewarden
+website: https://kubewarden.io
+description: Kubernetes admission control using WebAssembly (WASM).

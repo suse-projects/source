@@ -1,0 +1,9 @@
+<hero>
+    <section class="hero--component">
+        <div class="hero-container" data-align="center">
+            <h2 class="hero-heading page-heading-h2">{{.Site.Data.hero.heading}}</h2>
+            <div class="hero-copy">{{index .Site.Data.hero "copy" |
+                markdownify }}</div>
+        </div>
+    </section>
+</hero>

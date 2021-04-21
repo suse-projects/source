@@ -1,0 +1,18 @@
+baseURL: https://suse-projects.github.io
+languageCode: en-us
+title: SUSE Is Open Source
+disableKinds:
+- taxonomy
+- term
+markup.goldmark.renderer:
+  hardWraps: true
+params:
+  featuredLimit: 6
+  featured:
+  - K3S
+  - Rancher
+  - Harvester
+  - Longhorn
+  - Kubewarden
+  - K3OS
+  - SLE BCI
