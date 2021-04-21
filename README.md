@@ -2,11 +2,11 @@
 
 This is the source repo for the [SUSE Projects](https://suse-projects.github.io) page.
 
-This page is a compilation of open source software that SUSE has contributed to in any capacity, either as the inventor or as a collaborator.
+This page is a compilation of open source software that SUSE has created.
 
 ## Contributing
 
-If you would like to submit a project for inclusion, please fork the repository, create a branch, make changes as outlined below, and submit a pull request.
+If you would like to submit a project for inclusion, please fork the repository, make changes as outlined below, and submit a pull request.
 
 ### Adding A Project
 
