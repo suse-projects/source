@@ -1,6 +1,6 @@
 baseURL: https://suse-projects.github.io
 languageCode: en-us
-title: SUSE Is Open Source
+title: SUSE On GitHub
 disableKinds:
 - taxonomy
 - term
