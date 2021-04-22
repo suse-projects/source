@@ -1,0 +1,6 @@
+---
+name: Rio
+repository: https://github.com/rancher/rio
+twitter:
+website: https://rio.io
+description: The application deployment engine for Kubernetes.

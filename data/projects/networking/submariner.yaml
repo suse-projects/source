@@ -1,0 +1,6 @@
+---
+name: Submariner
+repository: https://github.com/submariner-io/submariner
+twitter: https://twitter.com/submarinerio
+website: https://submariner.io
+description: Connect all your Kubernetes clusters, no matter where they are in the world.
