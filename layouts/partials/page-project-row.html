@@ -2,10 +2,10 @@
     <td class="projectName"><a href="{{ .repository }}">{{ .name }}</a></td>
     <td class="projectRepository">
         {{ with .website }}
-        <a href="{{ . }}">{{ . }}</a></td>
+        <a href="{{ . }}">{{ . | replaceRE "^https?://" "" | replaceRE "/$" "" }}</a></td>
         {{ else }}
-        <a href="{{ .repository }}">{{ .repository }}</a>
+        <a href="{{ .repository }}">{{ .repository | replaceRE "^https?://" "" | replaceRE "/$" "" }}</a>
     {{ end }}
     </td>
-    <td class="projectCategory">{{ humanize .category | title }}</td>
+    <td class="projectCategory">{{ if .categoryOverride }}{{ .category }}{{ else }}{{ humanize .category | title }}{{ end }}</td>
 </tr>

@@ -50,14 +50,11 @@ Please place your project in one of the existing category directories. If it fit
 
 Try to fit entries into a noun for what the software enables. Kubewarden enables Security for Kubernetes, so although it could go into Kubernetes, it fits better in Security.
 
-- Kubernetes
-- Security
-- Storage
-- Operations
-- Development
-- Infrastructure
+If your project doesn't fit into an existing category, please create a new directory and explain your reasons for the new category in your pull request.
 
-If your project doesn't fit into one of these, please create a new directory and explain your reasons for the new category in your pull request.
+Some categories will have characters that won't encode into a directory, such as "AI/ML." In this case, use a `-` for the special characters. This creates a directory `ai-ml`. This, however, when sent through humanization, becomes "Ai Ml," which is not what we want.
+
+In this situation, set an override in `categoryMap` in `config.yaml` that sets the category key (the directory name) to the name that you would like. If a category exists in the override map, it will not go through humanization and will instead show the map value.
 
 ## Disabling a Project
 

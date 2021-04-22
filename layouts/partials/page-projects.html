@@ -20,6 +20,10 @@
                             <option value="" class="" selected="selected">All</option>
                             {{ range $k, $v := $.Site.Data.projects }}
                             {{ $label := humanize $k | title }}
+                            {{/* Check if we have a special override in config.yaml for this directory */}}
+                            {{ with index $.Site.Params.categoryMap $k }}
+                            {{ $label = . }}
+                            {{ end }}
                             <option label="{{ $label }}" value="{{ $label }}">{{ $label }}</option>
                             {{ end }}
                         </select>

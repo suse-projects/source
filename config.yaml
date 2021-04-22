@@ -7,12 +7,14 @@ disableKinds:
 markup.goldmark.renderer:
   hardWraps: true
 params:
-  featuredLimit: 6
+  featuredLimit: 3
   featured:
-  - K3S
   - Rancher
-  - Harvester
+  - K3S
   - Longhorn
+  - Harvester
   - Kubewarden
   - K3OS
   - SLE BCI
+  categoryMap:
+    ai-ml: AI/ML

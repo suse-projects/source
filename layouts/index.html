@@ -1,7 +1,13 @@
 {{ define "main" }}
 {{- range $category, $project := $.Site.Data.projects }}
+    {{/* Flattens our projects dir into a map of projects and a list of categories */}}
     {{- range $k, $v := . }}
+        {{/* check if we have a special name in the categoryMap */}}
+        {{ with index $.Site.Params.categoryMap $category }}
+        {{ $v = merge $v (dict "category" . "categoryOverride" true) }}
+        {{ else }}
         {{ $v = merge $v (dict "category" $category) }}
+        {{ end }}
         {{- $.Scratch.SetInMap "projects" $k $v }}
     {{- end }}
 {{- end }}
