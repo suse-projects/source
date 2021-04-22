@@ -9,11 +9,15 @@ markup.goldmark.renderer:
 params:
   featuredLimit: 6
   featured:
-  - Rancher
-  - K3S
-  - Longhorn
+  - Rancher Desktop
+  - Hypper
+  - Epinio
   - Harvester
-  - RKE
+  - Opni
+  - Kubewarden
   - RKE Government
+  - Trento
+  - Aquarium
+
   categoryMap:
     ai-ml: AI/ML

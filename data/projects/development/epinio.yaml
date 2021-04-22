@@ -1,7 +1,6 @@
 ---
 name: Epinio
-repository:
+repository: https://github.com/epinio
 twitter:
 website:
-description:
-disabled: true
+description: Opinionated platform that runs on Kubernetes, that takes you from App to URL in one step.
