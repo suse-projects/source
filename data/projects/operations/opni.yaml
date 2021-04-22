@@ -1,7 +1,6 @@
 ---
 name: Opni
-repository:
+repository: http://github.com/rancher/opni
 twitter:
 website:
-description:
-disabled: true
+description: AI/ML-driven anomaly detection for Kubernetes.

@@ -1,0 +1,6 @@
+---
+name: Aquarium
+repository: https://github.com/aquarist-labs/aquarium
+twitter:
+website:
+description: Easily deployed Ceph-based storage appliance.
