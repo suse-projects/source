@@ -7,14 +7,13 @@ disableKinds:
 markup.goldmark.renderer:
   hardWraps: true
 params:
-  featuredLimit: 3
+  featuredLimit: 6
   featured:
   - Rancher
   - K3S
   - Longhorn
   - Harvester
-  - Kubewarden
-  - K3OS
-  - SLE BCI
+  - RKE
+  - RKE Government
   categoryMap:
     ai-ml: AI/ML

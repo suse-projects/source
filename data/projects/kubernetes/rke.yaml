@@ -1,0 +1,6 @@
+---
+name: RKE
+repository: https://github.com/rancher/rke
+twitter:
+website: https://rancher.com/products/rke
+description: Kubernetes simplified. Runs in Docker containers.
