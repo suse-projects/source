@@ -1,0 +1,6 @@
+---
+name: openSUSE Tumbleweed
+repository: https://build.opensuse.org/project/show/openSUSE:Factory
+twitter: https://twitter.com/openSUSE
+website: https://en.opensuse.org/Portal:Tumbleweed
+description: Get the newest Linux packages with our rolling release.
