@@ -1,0 +1,6 @@
+---
+name: Zypper
+repository: https://github.com/openSUSE/zypper
+twitter:
+website: https://en.opensuse.org/Portal:Zypper
+description: World's most powerful command line package manager.
