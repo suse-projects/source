@@ -40,6 +40,8 @@ A logo is not required, but only projects with logos can be Featured.
 
 ### Featuring a Project
 
+**NOTE: The list of featured projects is maintained by the PM Team. Please do not set your own project to be Featured.**
+
 If the project is to be featured, add it to the `featured` key in `config.yaml`. The number of featured projects is set in the `featuredLimit` variable in `config.yaml`. Only the first projects up to that limit will appear as featured projects in the cards at the top of the page.
 
 Featured projects must have a logo (see above).
@@ -59,6 +61,10 @@ In this situation, set an override in `categoryMap` in `config.yaml` that sets t
 ## Disabling a Project
 
 Any project can be disabled by adding `disabled: true` to the YAML. This allows projects to be temporarily removed without having to delete their content entirely.
+
+## Previewing Your Changes
+
+If you would like to preview your changes before committing, you can do so by installing [Hugo](https://gohugo.io/) in your local environment. Once installed, run `hugo server -D` from the root of the repository. This will [open a development server](https://localhost:1313) on your machine. As you make changes, they will reload live in the browser.
 
 ## Deployment
 
