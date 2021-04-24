@@ -1,0 +1,6 @@
+---
+name: AutoK3s
+repository: https://github.com/cnrancher/autok3s
+twitter:
+website:
+description: Run K3s Everywhere.
