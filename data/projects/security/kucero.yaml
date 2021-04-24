@@ -1,0 +1,6 @@
+---
+name: kucero
+repository: https://github.com/SUSE/kucero
+twitter:
+website:
+description: Kubernetes certificate rotation.
