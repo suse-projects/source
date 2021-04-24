@@ -1,0 +1,6 @@
+---
+name: Uyuni
+repository: https://github.com/uyuni-project/uyuni
+twitter: https://twitter.com/UyuniProject
+website: https://uyuni-project.org
+description: The best tool to deploy and manage your enterprise Linux infrastructure, powered by Salt and Ansible
