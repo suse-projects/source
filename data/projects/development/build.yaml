@@ -1,0 +1,7 @@
+---
+name: The "build" script
+repository: https://github.com/openSUSE/obs-build
+twitter:
+website:
+description: The build script for reproducible and secure builds. Supporting many distributions and formats.
+
