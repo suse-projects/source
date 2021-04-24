@@ -1,0 +1,9 @@
+---
+name: Open Build Service Connector
+repository: https://github.com/SUSE/open-build-service-connector
+twitter:
+website: https://marketplace.visualstudio.com/items?itemName=SUSE.open-build-service-connector
+description: |
+  Visual Studio Code extension for integration with the Open Build Service: it
+  allows you to view existing packages and projects, check them out locally,
+  build them and integrates into VSCode's source control.
