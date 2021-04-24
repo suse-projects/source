@@ -1,0 +1,7 @@
+---
+name: Open Build Service Connector
+repository: https://github.com/SUSE/open-build-service-connector
+twitter:
+website: https://marketplace.visualstudio.com/items?itemName=SUSE.open-build-service-connector
+description: Visual Studio Code extension for integration with the Open Build Service.
+
