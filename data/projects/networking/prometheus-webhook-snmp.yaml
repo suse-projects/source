@@ -1,0 +1,4 @@
+---
+name: Prometheus Webhook SNMP
+repository: https://github.com/SUSE/prometheus-webhook-snmp
+description: prometheus-webhook-snmp is a Prometheus Alertmanager receiver that translates incoming notifications into SNMP traps.
