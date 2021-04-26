@@ -1,6 +1,6 @@
 baseURL: https://suse-projects.github.io
 languageCode: en-us
-title: SUSE On GitHub
+title: SUSE sources
 disableKinds:
 - taxonomy
 - term
