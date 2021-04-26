@@ -1,0 +1,5 @@
+---
+name: libsolv
+repository: https://github.com/openSUSE/libsolv
+website: http://en.opensuse.org/openSUSE:Libzypp_satsolver
+description: Library for solving packages and reading repositories
