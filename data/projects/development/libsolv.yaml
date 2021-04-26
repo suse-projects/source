@@ -1,0 +1,7 @@
+---
+name: libsolv
+repository: https://github.com/openSUSE/libsolv
+twitter:
+website: https://www.libsolv.org
+description: dependency solver using a satisfiability algorithm for zypp, dnf, kiwi, OBS and others
+
