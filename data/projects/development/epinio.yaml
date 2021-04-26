@@ -2,6 +2,6 @@
 name: Epinio
 repository: https://github.com/epinio
 twitter:
-website:
+website: https://epinio.io/
 description: An opinionated platform that runs on Kubernetes and takes you from code to URL in one step.
 
