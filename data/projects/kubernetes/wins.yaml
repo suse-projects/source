@@ -3,4 +3,4 @@ name: wins
 repository: https://github.com/rancher/wins
 twitter:
 website: 
-description: wins is a way to operate the Windows host inside a Windows container.
+description: Operate the Windows host inside a Windows container.
