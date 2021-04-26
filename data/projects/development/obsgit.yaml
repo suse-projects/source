@@ -1,0 +1,6 @@
+---
+name: obsgit
+repository: https://github.com/openSUSE/obsgit
+twitter:
+website:
+description: Simple bridge between Open Build Server and git
