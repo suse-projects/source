@@ -1,0 +1,5 @@
+---
+name: Zypper
+repository: https://github.com/openSUSE/zypper
+website: https://en.opensuse.org/Portal:Zypper
+description: Program and library for package, patch, pattern and product management.
