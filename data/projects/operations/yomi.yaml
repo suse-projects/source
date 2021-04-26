@@ -1,0 +1,6 @@
+---
+name: Yomi - Yet one more installer
+repository: https://github.com/openSUSE/yomi
+twitter:
+website:
+description: Installing openSUSE and SLE via Salt
