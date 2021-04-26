@@ -1,0 +1,5 @@
+---
+name: LibYUI
+repository: https://github.com/libyui/libyui
+website: https://github.com/libyui/libyui#readme
+description: Libyui is a widget abstraction library providing graphical (Qt) and text-based (NCurses) front-ends. 
