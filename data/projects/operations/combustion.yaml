@@ -1,0 +1,5 @@
+---
+name: Combustion
+repository: https://build.opensuse.org/package/show/devel:kubic:ignition/combustion
+website: https://en.opensuse.org/Portal:MicroOS/Combustion
+description: Fully set up your MicroOS installation on the first boot
