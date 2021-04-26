@@ -1,0 +1,6 @@
+---
+name: vhostmd
+repository: https://github.com/vhostmd/vhostmd
+twitter:
+website:
+description: Hypervisor service providing metrics/diagnostics information from hosted virtual machines.
