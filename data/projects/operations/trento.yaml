@@ -3,4 +3,4 @@ name: Trento
 repository: https://github.com/trento-project/trento
 twitter:
 website: https://www.trento-project.io
-description: An open cloud-native web console improving on the life of SAP Applications administrators.
+description: An open cloud-native web console to manage OS-related tasks for SAP applications.
