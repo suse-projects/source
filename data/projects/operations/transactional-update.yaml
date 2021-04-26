@@ -1,0 +1,5 @@
+---
+name: transactional-update
+repository: https://github.com/openSUSE/transactional-update
+website: https://microos.opensuse.org
+description: Use zypper, btrfs and snapshots to atomically update a system.
