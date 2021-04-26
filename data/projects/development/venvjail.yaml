@@ -1,0 +1,6 @@
+---
+name: venvjail
+repository: https://github.com/openSUSE/venvjail
+twitter:
+website:
+description: Create Python virtualenvs in OBS
