@@ -1,5 +1,5 @@
 ---
-name: RMT (Repository Mirroring Tool)
+name: Repository Mirroring Tool (RMT)
 repository: https://github.com/SUSE/rmt
 website: https://github.com/SUSE/rmt
 description: Mirror RPM repositories in your own private network.
