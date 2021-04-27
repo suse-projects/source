@@ -1,0 +1,6 @@
+---
+name: openSUSE MicroOS
+repository: https://build.opensuse.org/project/show/devel:kubic
+twitter: https://twitter.com/OMicroOS
+website: https://microos.opensuse.org
+description: Edge & Micro Service OS built by the openSUSE community.
