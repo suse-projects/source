@@ -1,0 +1,5 @@
+---
+name: hwinfo
+repository: https://github.com/openSUSE/hwinfo
+website:
+description: Hardware information tool

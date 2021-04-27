@@ -1,0 +1,5 @@
+---
+name: gfxboot
+repository: https://github.com/openSUSE/gfxboot
+website:
+description: Graphical boot screen for GRUB, LILO, and SYSLINUX

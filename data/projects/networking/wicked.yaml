@@ -1,0 +1,6 @@
+---
+name: wicked
+repository: https://github.com/openSUSE/wicked
+twitter:
+website: https://en.opensuse.org/Portal:Wicked
+description: Framework for network configuration
