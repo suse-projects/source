@@ -1,0 +1,6 @@
+---
+name: Open Build Service
+repository: https://github.com/openSUSE/open-build-service
+twitter:
+website: https://www.openbuildservice.org
+description: Distribution, package, appliance and container build infrastructure and collaboration
