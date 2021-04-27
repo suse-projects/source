@@ -1,0 +1,6 @@
+---
+name: libstorage-ng
+repository: https://github.com/openSUSE/libstorage-ng
+twitter:
+website: https://yast.opensuse.org/
+description: Linux storage management library.

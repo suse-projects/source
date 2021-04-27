@@ -1,0 +1,7 @@
+---
+name: libeconf
+repository: https://github.com/openSUSE/libeconf
+twitter:
+website:
+description: Enhanced config file parser, which merges config files placed in several locations into one. 
+
