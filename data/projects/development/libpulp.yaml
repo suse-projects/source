@@ -1,0 +1,5 @@
+---
+name: libpulp
+repository: https://github.com/SUSE/libpulp
+website:
+description: libpulp enables live patching in user space applications.
