@@ -1,0 +1,5 @@
+---
+name: klp-ccp
+repository: https://github.com/SUSE/klp-ccp
+website:
+description: Automate large parts of source based kernel livepatch creation.
