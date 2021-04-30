@@ -1,0 +1,6 @@
+---
+name: mash-client
+repository: https://github.com/SUSE-Enceladus/mash-client
+twitter:
+website:
+description: Command line tool for mash access

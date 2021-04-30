@@ -1,0 +1,6 @@
+---
+name: ec2metadata
+repository: https://github.com/SUSE-Enceladus/ec2metadata
+twitter:
+website:
+description: Metadata query tool for EC2 instances

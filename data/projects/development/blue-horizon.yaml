@@ -1,0 +1,6 @@
+---
+name: blue-horizon
+repository: https://github.com/SUSE-Enceladus/blue-horizon
+twitter:
+website:
+description: Web UI generation from Terraform script
