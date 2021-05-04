@@ -1,0 +1,8 @@
+---
+name: VSCode extension for RKE Cluster Configuration files
+repository: https://github.com/dcermak/vscode-rke-cluster-config
+website: |
+  https://marketplace.visualstudio.com/items?itemName=dancermak.vscode-rke-cluster-config
+description: |
+  Visual studio code extension that adds support for linting & validation of the
+  cluster.yml configuration file for RKE.
