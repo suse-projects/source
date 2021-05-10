@@ -1,0 +1,6 @@
+name: jeos-firstboot
+repository: https://github.com/openSUSE/jeos-firstboot
+twitter:
+website:
+description: Lightweight and customisable firstboot wizard that allows to set basic system settings
+during and after the first boot of an image.
