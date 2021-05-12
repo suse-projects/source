@@ -1,15 +1,22 @@
 <section class="band--layout" data-background="gray" data-collapse="bottom">
-    <div class="band-container" data-layout="3-up">
-        {{/* Flatten our data into a map of projects */}}
-        {{/* Pull out the first X featured projects */}}
-        {{ $projects := $.Scratch.Get "projects" }}
-        {{ range first $.Site.Params.featuredLimit $.Site.Params.featured }}
-        {{ $project := index $projects (replace (lower .) " " "-" )}}
-        {{ with $project }}
-        {{ if not .disabled }}
-        {{ partial "page-card.html" $project }}
-        {{ end }}
-        {{ end }}
-        {{ end }}
+    <div class="band-container" data-layout="stack">
+        <bandheader>
+        <div class="band-header--component">
+            <h3 class="band-header-heading">Featured Projects</h3>
+        </div>
+    </bandheader>
+        <div class="band-container" data-layout="3-up">
+            {{/* Flatten our data into a map of projects */}}
+            {{/* Pull out the first X featured projects */}}
+            {{ $projects := $.Scratch.Get "projects" }}
+            {{ range first $.Site.Params.featuredLimit $.Site.Params.featured }}
+            {{ $project := index $projects (replace (lower .) " " "-" )}}
+            {{ with $project }}
+            {{ if not .disabled }}
+            {{ partial "page-card.html" $project }}
+            {{ end }}
+            {{ end }}
+            {{ end }}
+        </div>
     </div>
 </section>
