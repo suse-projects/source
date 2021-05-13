@@ -1,4 +1,5 @@
 ---
 name: Rancher Desktop
 repository: https://github.com/rancher-sandbox/rd
+website: https://rancherdesktop.io/
 description: Kubernetes on your desktop.
