@@ -1,0 +1,7 @@
+---
+name: RKE Cluster Linter for VS Code
+repository: https://github.com/dcermak/vscode-rke-cluster-config
+website: |
+  https://marketplace.visualstudio.com/items?itemName=dancermak.vscode-rke-cluster-config
+description: |
+  VS Code extension for linting and validation of RKE's cluster.yml.
