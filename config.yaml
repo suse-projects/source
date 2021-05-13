@@ -7,17 +7,17 @@ disableKinds:
 markup.goldmark.renderer:
   hardWraps: true
 params:
-  featuredLimit: 6
+  featuredLimit: 9
   featured:
   - Rancher Desktop
+  - Harvester
+  - Kubewarden
   - Hypper
   - Epinio
-  - Harvester
   - Opni
-  - Kubewarden
-  - RKE Government
+  - openSUSE Leap
   - Trento
-  - Aquarium
+  - Uyuni
 
   categoryMap:
     ai-ml: AI/ML
