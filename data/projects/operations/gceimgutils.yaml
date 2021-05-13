@@ -1,0 +1,6 @@
+---
+name: gceimgutils
+repository: https://github.com/SUSE-Enceladus/gceimgutils
+twitter:
+website:
+description:  Tools to manage images in GCE

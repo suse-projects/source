@@ -1,0 +1,6 @@
+---
+name: ec2imgutils
+repository: https://github.com/SUSE-Enceladus/ec2imgutils
+twitter:
+website:
+description: Tools to manage images in AWS EC2

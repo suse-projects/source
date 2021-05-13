@@ -1,0 +1,6 @@
+---
+name: mash
+repository: https://github.com/SUSE-Enceladus/mash
+twitter:
+website:
+description: CI/CD piepeline for VM images

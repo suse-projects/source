@@ -1,0 +1,6 @@
+---
+name: azuremetadata
+repository: https://github.com/SUSE-Enceladus/azuremetadata
+twitter:
+website:
+description: Metadata query tool for Azure instances

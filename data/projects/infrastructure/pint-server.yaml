@@ -1,0 +1,6 @@
+---
+name: public-cloud-info-service
+repository: https://github.com/SUSE-Enceladus/public-cloud-info-service
+twitter:
+website:
+description: Information server for Cloud images and Servers

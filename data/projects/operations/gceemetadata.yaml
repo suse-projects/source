@@ -1,0 +1,6 @@
+---
+name: gcemetadata
+repository: https://github.com/SUSE-Enceladus/gcemetadata
+twitter:
+website:
+description: Metadata query tool for GCE instances
