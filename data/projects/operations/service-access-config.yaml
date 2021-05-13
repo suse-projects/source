@@ -1,0 +1,6 @@
+---
+name: service-access-config
+repository: https://github.com/SUSE-Enceladus/service-access-config
+twitter:
+website:
+description: ACL generator for services
