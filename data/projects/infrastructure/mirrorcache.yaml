@@ -1,0 +1,4 @@
+---
+name: MirrorCache
+repository: https://github.com/openSUSE/MirrorCache
+description: Download redirector to find a suitable mirror from the client's geographic location.
