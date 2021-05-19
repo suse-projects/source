@@ -1,5 +1,5 @@
 ---
-name: ec2imgutils
+name: aliyun-img-utils
 repository: https://github.com/SUSE-Enceladus/aliyun-img-utils
 twitter:
 website:

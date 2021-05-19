@@ -3,5 +3,6 @@ name: SLE BCI
 repository:
 twitter:
 website:
-description: A secure container base image built from SUSE Enterprise Linux.
-disabled: true
+description: |-
+  A flexible developer environment tailored for modern
+  containerized application development and CI/CD.

@@ -15,9 +15,9 @@ params:
   - Hypper
   - Epinio
   - Opni
-  - openSUSE Leap
+  - SLE BCI
   - Trento
-  - Uyuni
+  - Aquarium
 
   categoryMap:
     ai-ml: AI/ML
