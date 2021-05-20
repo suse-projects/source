@@ -6,3 +6,4 @@ website:
 description: |-
   A flexible developer environment tailored for modern
   containerized application development and CI/CD.
+disabled: true
