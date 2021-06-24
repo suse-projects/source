@@ -76,8 +76,10 @@ This site was created using [Hugo](https://gohugo.io/).
 
 ## Licensing
 
-- [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/) for the displayed page and primary license for this repository
-- [MIT](https://opensource.org/licenses/MIT) for the JavaScript
-- [CC0](https://creativecommons.org/share-your-work/public-domain/cc0/) for the HTML and CSS
+- [CC BY-SA 4.0](COPYING.CC-BY-SA-4.0) for the displayed page and primary license for this repository.
+- [MIT](COPYING.MIT) for the JavaScript
+- [CC0](COPYING.CC0) for the HTML and CSS
 
 SUSE trademarks and individual project logos are not subject to the above license grants. Usage of these items is restricted by their individual license grants.
+
+This repository is based on [RedHatOfficial/RedHatOfficial.github.io](https://github.com/RedHatOfficial/RedHatOfficial.github.io).
