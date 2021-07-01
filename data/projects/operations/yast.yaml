@@ -1,0 +1,6 @@
+---
+name: YaST
+repository: https://github.com/yast/
+twitter:
+website: https://yast.opensuse.org/
+description: Installation and configuration tool for openSUSE and SUSE distributions
