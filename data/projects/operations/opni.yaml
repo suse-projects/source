@@ -2,5 +2,5 @@
 name: Opni
 repository: http://github.com/rancher/opni
 twitter:
-website:
+website: https://opni.ai
 description: AI/ML-driven anomaly detection for Kubernetes.
