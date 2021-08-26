@@ -17,7 +17,7 @@ params:
   - Opni
   - Uyuni
   - Trento
-  - Hypper
+  - Longhorn
 
   categoryMap:
     ai-ml: AI/ML
