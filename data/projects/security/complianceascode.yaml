@@ -1,6 +1,6 @@
 ---
 name: ComplianceAsCode
-repository: https://github.com/SUSE/ComplianceAsCodeContent/
+repository: https://github.com/openSUSE/ComplianceAsCode-content
 twitter:
 website:
 description: Creation of security policy content for various platforms.
