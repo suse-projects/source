@@ -1,5 +1,5 @@
 ---
-name: RKE Government
+name: RKE2
 repository: https://github.com/rancher/rke2
 twitter:
 website: https://docs.rke2.io/
