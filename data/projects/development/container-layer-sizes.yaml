@@ -1,0 +1,6 @@
+---
+name: Container Layer Visualization
+repository: https://github.com/dcermak/container-layer-sizes
+twitter:
+website: https://github.com/SUSE/open-build-service-connector
+description: Webapp that generates sunburst graphs of the filesystem in each container image layer
