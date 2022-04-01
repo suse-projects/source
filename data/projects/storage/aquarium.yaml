@@ -2,5 +2,5 @@
 name: Aquarium
 repository: https://github.com/aquarist-labs/aquarium
 twitter:
-website:
-description: Easy to deploy, Ceph-based storage appliance, centered around declarative objectives.
+website: https://aquarist-labs.io/
+description: An easy to deploy, Ceph-based storage appliance, centered around declarative objectives.
