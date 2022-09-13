@@ -1,0 +1,22 @@
+<section class="band--layout" data-background="gray" data-collapse="bottom">
+    <div class="band-container" data-layout="stack">
+        <bandheader>
+        <div class="band-header--component">
+            <h3 class="band-header-heading">Sponsored Open Source Foundations</h3>
+        </div>
+    </bandheader>
+        <div class="band-container" data-layout="4-up">
+            {{/* Flatten our data into a map of foundations */}}
+            {{/* Pull out the first X featured foundations */}}
+            {{ $foundations := $.Scratch.Get "foundations" }}
+            {{ range first $.Site.Params.foundationsfeaturedLimit $.Site.Params.foundationsfeatured }}
+            {{ $foundation := index $foundations (replace (lower .) " " "-" )}}
+            {{ with $foundation }}
+            {{ if not .disabled }}
+            {{ partial "page-card.html" $foundation }}
+            {{ end }}
+            {{ end }}
+            {{ end }}
+        </div>
+    </div>
+</section>
