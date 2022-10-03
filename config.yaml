@@ -19,5 +19,29 @@ params:
   - Trento
   - Longhorn
 
+  foundationsfeaturedLimit: 21
+  foundationsfeatured:
+  - cncf
+  - eclipse
+  - elisa
+  - finos
+  - gaiax
+  - gnome
+  - lf
+  - nvm
+  - openmainframe
+  - osba
+  - openacc
+  - openhpc
+  - openmp
+  - openssf
+  - oran
+  - pcisig
+  - riscv
+  - soafee
+  - sdv
+  - uefi
+  - zerooutage
+
   categoryMap:
     ai-ml: AI/ML

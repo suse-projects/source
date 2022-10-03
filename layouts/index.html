@@ -1,5 +1,7 @@
 {{ define "main" }}
-{{- range $category, $project := $.Site.Data.projects }}
+{{ $entities := dict "projects" $.Site.Data.projects "foundations" $.Site.Data.foundations }}
+{{- range $entityname, $entityattrs := $entities }}
+{{- range $category, $project := $entityattrs }}
     {{/* Flattens our projects dir into a map of projects and a list of categories */}}
     {{- range $k, $v := . }}
         {{/* check if we have a special name in the categoryMap */}}
@@ -8,11 +10,13 @@
         {{ else }}
         {{ $v = merge $v (dict "category" $category) }}
         {{ end }}
-        {{- $.Scratch.SetInMap "projects" $k $v }}
+        {{- $.Scratch.SetInMap $entityname $k $v }}
     {{- end }}
+{{- end }}
 {{- end }}
 {{ partial "page-hero.html" . }}
 {{ partial "page-featured.html" . }}
+{{ partial "page-foundations.html" . }}
 {{ partial "page-projects.html" . }}
 {{ partial "page-cta.html" . }}
 {{ end }}
